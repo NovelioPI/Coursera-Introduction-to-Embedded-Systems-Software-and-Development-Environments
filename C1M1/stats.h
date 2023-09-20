@@ -24,17 +24,81 @@
 /* Add Your Declarations and Function Comments here */ 
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief Print statistics information of an array
  *
- * <Add Extended Description Here>
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param array The array to be analyzed
+ * @param length The length of the array
  *
- * @return <Add Return Informaiton here>
+ * @return void
  */
+void print_statistics(unsigned char *array, unsigned int length);
+
+/**
+ * @brief Print the array
+ *
+ *
+ * @param array The array to be printed
+ * @param length The length of the array
+ *
+ * @return void
+ */
+void print_array(unsigned char *array, unsigned int length);
+
+/**
+ * @brief Find the median of an array
+ *
+ *
+ * @param array The array to be analyzed
+ * @param length The length of the array
+ *
+ * @return The median of the array
+ */
+unsigned char find_median(unsigned char *array, unsigned int length);
+
+/**
+ * @brief Find the mean of an array
+ *
+ *
+ * @param array The array to be analyzed
+ * @param length The length of the array
+ *
+ * @return The mean of the array
+ */
+unsigned char find_mean(unsigned char *array, unsigned int length);
+
+/**
+ * @brief Find the maximum of an array
+ *
+ *
+ * @param array The array to be analyzed
+ * @param length The length of the array
+ *
+ * @return The maximum of the array
+ */
+unsigned char find_maximum(unsigned char *array, unsigned int length);
+
+/**
+ * @brief Find the minimum of an array
+ *
+ *
+ * @param array The array to be analyzed
+ * @param length The length of the array
+ *
+ * @return The minimum of the array
+ */
+unsigned char find_minimum(unsigned char *array, unsigned int length);
+
+/**
+ * @brief Sort the array from largest to smallest
+ *
+ *
+ * @param array The array to be sorted
+ * @param length The length of the array
+ *
+ * @return void
+ */
+void sort_array(unsigned char *array, unsigned int length);
 
 
 #endif /* __STATS_H__ */
